@@ -1,7 +1,7 @@
 import random
 import os
 
-os.system('clear')
+os.system("clear")
 
 text = "Ella sabe Python"
 
@@ -18,8 +18,8 @@ print(text[2])
 # Si se quisiera saber cual es el ultimo caracter de dicho texto es saber el tamaño
 
 size = len(text)
-print('size', size)
-print(text[size- 1])
+print("size", size)
+print(text[size - 1])
 
 # Otra forma de saber el ultimo caracter es poner -1
 
@@ -29,7 +29,6 @@ print(text[-1])
 # Slicing es obtener una cadena de texto en especifico
 # Ejemplo: Ella sabe Python
 # Ella sabe Python
-# 
 print(text[0:5])
 print(text[10:16])
 print(text[0:10])

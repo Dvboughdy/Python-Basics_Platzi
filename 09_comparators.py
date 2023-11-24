@@ -1,6 +1,6 @@
 import os
 
-os.system('clear')
+os.system("clear")
 # > -> mayor que
 print(7 > 3)
 print(3 > 7)
@@ -31,6 +31,7 @@ print(6 == 6)
 print(5 == 2)
 
 # != distinto
+# fsafs
 print(6 != 10)
 print(6 != 6)
 print(6 != 5)
@@ -40,8 +41,8 @@ print(6 != 5)
 print(5 > 2 and 7 > 3)
 
 # Comparación de Strings
-print('Apple' == 'Apple')  # True
-print("Apple" == 'apple')  # False
+print("Apple" == "Apple")  # True
+print("Apple" == "apple")  # False
 
 # Comparación de datos con valores diferentes
 print("1" == 1)  # False
@@ -52,7 +53,7 @@ age = 15
 print(age >= 18)  # False
 import os
 
-os.system('clear')
+os.system("clear")
 # > -> mayor que
 print(7 > 3)
 print(3 > 7)
@@ -92,8 +93,8 @@ print(6 != 5)
 print(5 > 2 and 7 > 3)
 
 # Comparación de Strings
-print('Apple' == 'Apple')  # True
-print("Apple" == 'apple')  # False
+print("Apple" == "Apple")  # True
+print("Apple" == "apple")  # False
 
 # Comparación de datos con valores diferentes
 print("1" == 1)  # False

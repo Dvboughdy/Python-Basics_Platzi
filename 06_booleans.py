@@ -16,4 +16,3 @@ is_single = not is_single
 print(is_single)
 
 # Valores a los cuales se les asigna dos valores
-

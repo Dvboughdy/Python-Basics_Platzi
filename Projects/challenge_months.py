@@ -4,7 +4,7 @@ enero = 234
 febrero = 324
 marzo = 123
 
-sumatorio = (enero + febrero + marzo / 3)
+sumatorio = enero + febrero + marzo / 3
 print(sumatorio)
 
 

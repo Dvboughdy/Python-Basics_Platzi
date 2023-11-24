@@ -22,13 +22,11 @@ print("Mi edad es " + str(age))
 
 print("Mi edad es", age)
 
-age = input('Escribe tu edad => ')
-print(type(
-    age))  # a pesar de ingresar un dato tipo entero se imprimer como string
+age = input("Escribe tu edad => ")
+print(type(age))  # a pesar de ingresar un dato tipo entero se imprimer como string
 age = int(age)  # para leerlo como entero se debe declarar como tipo int
 age += 10
-print(f'Tu edad en 10 años sera {age}')
+print(f"Tu edad en 10 años sera {age}")
 
 # ¿que pasaria si se digitara un texto en vez de un valor numerico?
 # como se muestra por consola, arrojaria un error de traceback
-

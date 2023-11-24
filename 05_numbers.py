@@ -5,7 +5,7 @@ print(type(lives))
 age = 12
 budget = 100
 
-#numbers float
+# numbers float
 temperature = 12.12
 print(type(temperature))
 
