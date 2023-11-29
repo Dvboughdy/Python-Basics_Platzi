@@ -1,11 +1,30 @@
+""" Crear un programa que simule el juego de piedra, papel o tijera. """
+# Importar librerias para el programa
 import random
 import os
 
 os.system("clear")
 
+options = ("piedra", "papel", "tijera")  # Crear una tupla con las opciones del juego
+
+
 user_option = input("piedra, papel o tijera? ")
 user_option = user_option.lower()
-computer_option = random.choice(["piedra", "papel", "tijera"])
+
+""" Si la opción del usuario no se encuentra en la tupla options """
+if user_option not in options:
+    print("Error, por favor ingresa una opción valida")
+    exit()  # Termina el programa
+"""  """
+computer_option = random.choice(
+    options
+)  # Selecciona un elemento de la lista al azar a partir de la libreria random
+
+
+""" Nuevos cambios """
+print("user_option =>", user_option)
+print("computer_option =>", computer_option)
+"""  """
 
 if user_option == computer_option:
     print("Empate")

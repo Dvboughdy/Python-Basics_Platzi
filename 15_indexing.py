@@ -3,7 +3,7 @@ import os
 
 os.system("clear")
 
-text = "Ella sabe Python"
+text = "Ella sabe Python" # Los espcios tambien cuentan como posiones
 
 # Indexing significa que los textos tienen un indicador o una posición
 # en donde empieza y en donde termina
@@ -29,17 +29,17 @@ print(text[-1])
 # Slicing es obtener una cadena de texto en especifico
 # Ejemplo: Ella sabe Python
 # Ella sabe Python
-print(text[0:5])
+print(text[0:5]) 
 print(text[10:16])
 print(text[0:10])
 # o simplemente poner
 print(text[:10])
 
-print(text[5:-1])
-print(text[5:])
-print(text[:])
+print(text[5:-1]) # En este caso el -1 no se incluye
+print(text[5:]) # En este caso el -1 si se incluye
+print(text[:]) # Imprime todo el texto
 
 # Saltos al final del Slicing
-print(text[10:16:1])
-print(text[10:16:2])
-print(text[::2])
+print(text[10:16:1]) # En este caso el 1 es el salto que se da
+print(text[10:16:2]) # En este caso el 2 es el salto que se da Impriendo solo las posiciones pares
+print(text[::2]) # Imprime todo el texto con saltos de 2 en 2
