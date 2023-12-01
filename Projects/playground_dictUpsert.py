@@ -12,6 +12,7 @@ person["twitter"] = "@nicobytes"
 person["name"] = "Felipe"
 # Eliminar el elemento con la llave "age".
 person.pop("age")
+del person["age"]
 # Imprimir una lista con las llaves del diccionario.
 print(f"las llaves del diccionario son: {list(person.keys())}")
 # Imprimir una lista con los valoresdel diccionario.
