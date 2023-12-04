@@ -16,7 +16,6 @@ matrix = [
 for row in matrix: # row se refiere a  una lista que se recorre en la matriz
     print(row) # imprime cada fila de la matriz
     for column in row: # item se refiere a cada elemento de la fila
-        print(column) # Imprimira la lista de numeros de la matriz
-        # print(item, end=" ") # imprime cada elemento de la fila dejando un espacio
-    # print() # imprime la matriz completa
+        print(column, end=" ") # imprime cada elemento de la fila dejando un espacio
+    print() # imprime la matriz completa
 
