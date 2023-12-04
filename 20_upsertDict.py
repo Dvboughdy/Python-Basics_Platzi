@@ -4,7 +4,10 @@ import os
 os.system("clear")
 
 person = dict(
-    name="David", last_name="Yazo", langs=["Python", "JavaScript", "C++"], age=99
+    name="David", 
+    last_name="Yazo",
+    langs=["Python", "JavaScript", "C++"],
+    age=99
 )
 print(person)
 
