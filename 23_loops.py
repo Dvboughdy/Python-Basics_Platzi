@@ -19,3 +19,18 @@ for row in matrix: # row se refiere a  una lista que se recorre en la matriz
         print(column, end=" ") # imprime cada elemento de la fila dejando un espacio
     print() # imprime la matriz completa
 
+
+
+""" Ejemplo de un ciclo anidado de una matriz mostrando solo dos filas """
+matrix = [
+    [23, 12, 11],
+    [45, 52, 54],
+    [71, 83, 92]
+]
+
+""" Ciclo for anidado donde solo se muestre la primera y segunda fila """
+for row in range(2):  # imprime solo la primera y segunda fila de la matriz
+    print(matrix[row]) # imprime cada fila de la matriz
+    for column in range(3): # imprime cada elemento de la fila dejando un espacio
+        print(matrix[row][column], end=" ") # imprime cada elemento de la fila dejando un espacio
+    print()
